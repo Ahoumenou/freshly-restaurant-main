@@ -1,0 +1,443 @@
+/* Font face */
+
+/* Athiti */
+
+/* athiti-light*/
+
+@font-face {
+    font-family: "athiti";
+    src: url(../../fonts/Athiti/athiti-light.woff2) format("woff2");
+    src: url(../../fonts/Athiti/athiti-light.woff) format("woff");
+    src: url(../../fonts/Athiti/athiti-light.ttf) format("truetype");
+    font-style: 200;
+    font-weight: 400;
+}
+
+/* athiti-extralight */
+@font-face {
+    font-family: "athiti";
+    src: url(../../fonts/Athiti/athiti-extralight.woff2) format("woff2");
+    src: url(../../fonts/Athiti/athiti-extralight.woff) format("woff");
+    src: url(../../fonts/Athiti/athiti-extralight.ttf) format("truetype");
+    font-style: 300;
+    font-weight: 400;
+}
+
+/* athiti-regular*/
+@font-face {
+    font-family: "athiti";
+    src: url(../../fonts/Athiti/athiti-regular.woff2) format("woff2");
+    src: url(../../fonts/Athiti/athiti-regular.woff) format("woff");
+    src: url(../../fonts/Athiti/athiti-regular.ttf) format("truetype");
+    font-style: 400;
+    font-weight: 400;
+}
+
+/* athiti-medium */
+@font-face {
+    font-family: "athiti";
+    src: url(../../fonts/Athiti/athiti-medium.woff2) format("woff2");
+    src: url(../../fonts/Athiti/athiti-medium.woff) format("woff");
+    src: url(../../fonts/Athiti/athiti-medium.ttf) format("truetype");
+    font-style: 500;
+    font-weight: 400;
+}
+
+/* athiti-semibold*/
+@font-face {
+    font-family: "athiti";
+    src: url(../../fonts/Athiti/athiti-bold.woff2) format("woff2");
+    src: url(../../fonts/Athiti/athiti-semibold.woff) format("woff");
+    src: url(../../fonts/Athiti/athiti-semibold.ttf) format("truetype");
+    font-style: 400;
+    font-weight: 600;
+}
+
+/* athiti-bold */
+@font-face {
+    font-family: "athiti";
+    src: url(../../fonts/Athiti/athiti-bold.woff2) format("woff2");
+    src: url(../../fonts/Athiti/athiti-bold.woff) format("woff");
+    src: url(../../fonts/Athiti/athiti-bold.ttf) format("truetype");
+    font-style: 400;
+    font-weight: bold;
+}
+
+
+/* ------------------- */
+/* Merienda */
+
+/* merienda-light*/
+
+@font-face {
+    font-family: "merienda";
+    src: url(../../fonts/merienda/merienda-light.woff2) format("woff2");
+    src: url(../../fonts/merienda/merienda-light.woff) format("woff");
+    src: url(../../fonts/merienda/merienda-light.ttf) format("truetype");
+    font-style: 200;
+    font-weight: 400;
+}
+
+/* merienda-extralight */
+@font-face {
+    font-family: "merienda";
+    src: url(../../fonts/merienda/merienda-extralight.woff2) format("woff2");
+    src: url(../../fonts/merienda/merienda-extralight.woff) format("woff");
+    src: url(../../fonts/merienda/merienda-extralight.ttf) format("truetype");
+    font-style: 300;
+    font-weight: 400;
+}
+
+/* merienda-regular*/
+@font-face {
+    font-family: "merienda";
+    src: url(../../fonts/merienda/merienda-regular.woff2) format("woff2");
+    src: url(../../fonts/merienda/merienda-regular.woff) format("woff");
+    src: url(../../fonts/merienda/merienda-regular.ttf) format("truetype");
+    font-style: 400;
+    font-weight: 400;
+}
+
+/* merienda-medium */
+@font-face {
+    font-family: "merienda";
+    src: url(../../fonts/merienda/merienda-medium.woff2) format("woff2");
+    src: url(../../fonts/merienda/merienda-medium.woff) format("woff");
+    src: url(../../fonts/merienda/merienda-medium.ttf) format("truetype");
+    font-style: 500;
+    font-weight: 400;
+}
+
+/* merienda-semibold*/
+@font-face {
+    font-family: "merienda";
+    src: url(../../fonts/merienda/merienda-semibold.woff2) format("woff2");
+    src: url(../../fonts/merienda/merienda-semibold.woff) format("woff");
+    src: url(../../fonts/merienda/merienda-semibold.ttf) format("truetype");
+    font-style: 400;
+    font-weight: 600;
+}
+
+/* merienda-bold */
+@font-face {
+    font-family: "merienda";
+    src: url(../../fonts/merienda/merienda-bold.woff2) format("woff2");
+    src: url(../../fonts/merienda/merienda-bold.woff) format("woff");
+    src: url(../../fonts/merienda/merienda-bold.ttf) format("truetype");
+    font-style: 400;
+    font-weight: bold;
+}
+
+/* merienda-black */
+@font-face {
+    font-family: "merienda";
+    src: url(../../fonts/merienda/merienda-black.woff2) format("woff2");
+    src: url(../../fonts/merienda/merienda-black.woff) format("woff");
+    src: url(../../fonts/merienda/merienda-black.ttf) format("truetype");
+    font-style: 400;
+    font-weight: 900;
+}
+
+/* *****************************************************************
+TOOLS
+***************************************************************** */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.8rem;
+}
+
+/* *****************************************************************
+GENERALITIES
+***************************************************************** */
+
+/* Le corps du document */
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: "athiti";
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Le titre principal d'un flux */
+h1 {
+    font-size: 3rem;
+}
+
+/* Le titre de second niveau */
+h2 {
+    font-size: 2.5rem;
+}
+
+/* Le titre de troisème niveau */
+h3 {
+    font-size: 2rem;
+}
+
+/* Les liens */
+a {
+    text-decoration: none;
+}
+
+/* Contenu principal */
+main {
+    /* padding: 2em; */
+}
+
+/* Les articles */
+article {
+    padding-block: 1rem;
+    background-color: var(--clr-second);
+}
+
+/* marge entre les sections */
+section+section {
+    /* margin-top: 2em; */
+}
+
+article+article {
+    margin-top: 2em;
+}
+
+section {
+    padding: 1rem;
+}
+
+button {
+    font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3,
+a {
+    font-family: "merienda";
+}
+
+figcaption::before,
+figcaption::after,
+h2::before,
+h2::after,
+h3::before,
+h3::after,
+article>ul>li::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\F005";
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: var(--clr-textiaire);
+    padding-inline: 1rem;
+    padding-top: 0;
+
+
+}
+
+img {
+    max-width: 100%;
+}
+
+/* *****************************************************************
+CONTAINER
+***************************************************************** */
+
+/* Le container permet de limiter la largeur d'un contenu */
+.container {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Les variables */
+/* Marron : #4c4343
+Beige : #ebe3db
+Rouge : #950000 */
+:root {
+    --clr-principale: #4c4343;
+    --clr-second: #ebe3db;
+    --clr-textiaire: #950000;
+
+}
+
+
+
+/* *****************************************************************
+LES CLASSES UNITAIRES
+***************************************************************** */
+.flex {
+    display: flex;
+}
+
+.flex-jc-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-jc-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+/* *****************************************************************
+MAIN LAYOUT
+***************************************************************** */
+
+/* L'entête de la page */
+.header figure>img {
+    max-width: 10%;
+}
+.header figure>img:hover{
+    transition: all 3s;
+    transform: scale(1.2) rotate(360deg);
+}
+
+.header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    background-image: linear-gradient(to top, #fff, var(--clr-second));
+}
+
+.header ul nav li a {
+    display: block;
+    width: 100vw;
+    padding-block: 1rem;
+
+    background-color: var(--clr-second);
+    border: 1px solid var(--clr-principale);
+    color: var(--clr-principale);
+
+}
+
+.header ul nav li a:hover,
+.header ul nav li a:focus {
+    background-color: var(--clr-principale);
+
+    color: var(--clr-second);
+    transition-duration: 1s;
+}
+
+
+/* Le pied de page */
+.info {
+    margin: 0;
+
+    text-align: center;
+
+    background-image: url(../../ressources/images/footer-bg.jpg);
+    color: #fff;
+}
+
+.info section {
+    flex-basis: 400px;
+}
+
+.info h3 {
+    padding-bottom: 1rem;
+    border-bottom: 1px dashed #fff;
+}
+
+.info a,
+footer a {
+    color: #fff;
+}
+
+.footer img {
+    max-width: 50%;
+    margin: 5px auto;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.801);
+    color: #fff;
+
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+
+/* Page Home */
+
+/* slick */
+
+.parent {
+    position: relative;
+    padding: 2rem;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    position: absolute;
+    font-size: 3rem;
+
+}
+
+.slick-prev:before {
+    left: -2rem;
+}
+
+.slick-next:before {
+    left: -6rem;
+
+}
+
+section>article>ul>li:nth-child(2n+1) {
+    padding-block: 1rem;
+    border-bottom: 1px dashed var(--clr-principale);
+}
+
+section>article>ul>li:nth-child(2n+2) {
+    padding-block: 1rem;
+    border-bottom: 2px dotted var(--clr-principale);
+}
+
+section>article .readmore {
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--clr-principale);
+    color: var(--clr-second);
+    text-align: center;
+}
+
+section>article .readmore {
+    display: flex;
+    justify-content: center;
+}
+
+section>article .readmore>img {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    max-width: 3%;
+}
+
+section>article .readmore:hover,
+section>article .readmore:focus {
+    border: 1px solid var(--clr-principale);
+    background-color: var(--clr-second);
+    color: var(--clr-principale);
+    transition-duration: 1s;
+}
+
+section>article>img {
+    max-width: 100%;
+}
